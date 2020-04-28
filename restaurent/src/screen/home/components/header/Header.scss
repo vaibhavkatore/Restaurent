@@ -1,0 +1,38 @@
+.header-page{
+    padding: 0px 0px;
+        .bg-light {
+            background-color: rgba(0, 0, 0, 0.5) !important; //rgba(0, 0, 0, 0.8);
+            padding: 10px 7rem;
+            .menu {
+                justify-content: flex-end;
+                .menulist {
+                    text-align: right;
+                    .nav-link{
+                        font-size: 1.2rem;
+                        padding: 4px 22px;
+                        font-weight: 600;
+                        color : #ffffff;
+                        align-self: center;
+                    }
+                }
+            }
+        }
+        .btn-signup {
+            border-radius: 30px;
+            border-color: #db3931;
+            background-color: #ffffff;
+            color: #000000;
+            &:focus,
+            &:hover,
+            &.active {
+                border-radius: 30px;
+                border-color: #db3931 !important;
+                box-shadow: none;
+                background-color: #ffffff !important;
+                color: #000000
+    
+            }
+        }
+}
+
+        
